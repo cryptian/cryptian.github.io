@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Diplomata+SC|Kreon:400,700&subset=latin,latin-ext);
+
 /*****************************************************************************/
 /*
 /* Common
@@ -14,20 +16,27 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 13.34px Kreon, Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 110%; 
+}
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a {
+   color: #a00; 
+   text-decoration: none;
+}
+a:hover{
+   color: #a00; 
+   text-decoration: underline;
+}
+a:visited { color: #f00; }
 
 /*****************************************************************************/
 /*
@@ -71,6 +80,7 @@ a:visited { color: #a0a; }
 .title {
   display: inline-block;
   margin-bottom: 2em;
+  font-family: 'Diplomata SC';
 }
 
 .title a {
@@ -157,4 +167,8 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.license-block {
+  text-align: center;
 }

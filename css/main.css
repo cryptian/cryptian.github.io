@@ -172,3 +172,9 @@ a:visited { color: #f00; }
 .license-block {
   text-align: center;
 }
+
+blockquote {
+  padding: 2px 7px;
+  border-left: 3px solid #800;
+  background-color:#dcdcdc;
+}
